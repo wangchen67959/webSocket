@@ -12,7 +12,7 @@ import org.apache.log4j.Logger;
 
 import com.socket.util.SessionUtil;
 
-@ServerEndpoint("/flyfishWebSocket/{userId}")
+//@ServerEndpoint("/flyfishWebSocket/{userId}")
 public class WebSocket {
 	
 	public static final Logger log = Logger.getLogger(WebSocket.class);
